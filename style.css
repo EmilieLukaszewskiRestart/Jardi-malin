@@ -1,0 +1,176 @@
+@font-face {
+    font-family:'Tilt Neon';
+    src: url(Police/Tilt_Neon/static/TiltNeon-Regular.ttf);
+}
+
+
+
+body{
+    font-size: 100%;
+    font-family: 'Tilt Neon';
+    background-color: rgb(164, 223, 148);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;  
+   
+}
+
+.bandeau {
+    
+    position: relative;
+}
+
+.bandeau img{
+    width: 100%;
+}
+
+
+h1{
+
+    color: rgb(92, 158, 57);
+}
+
+p{
+    text-align: center;
+    color: rgb(11, 130, 39);
+
+}
+
+.titleon{
+    position:absolute;
+    background-color: rgb(207, 223, 169);
+    top: 20%;
+    left: 43%;
+    height: fit-content;
+    width:fit-content;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 2%;
+}
+
+
+.txton{
+  padding-top: 0%;
+  color:rgb(13, 128, 0);
+  margin:auto;
+  margin-left: 30%;
+}
+
+
+
+@media (max-width:700px) {
+  .txton{
+    padding-top: 0%;
+    color:rgb(13, 128, 0);
+    margin:auto;
+    margin-left: 30%;
+  }
+
+}
+  
+
+
+.fond{
+  background-color:rgb(207, 223, 169);
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    background: rgb(207, 223, 169);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color:green
+  }
+  
+  .navigation a:hover {
+    background: #2ac253;
+  }
+  
+  @media all and (max-width: 1024px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 1024px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+
+
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.container1{
+  background-color: rgb(92, 158, 57);
+}
+
+.container2{
+  background-color: rgb(92, 158, 57);
+}
+
+.container3{
+  background-color: rgb(92, 158, 57);
+}
+
+.box2 div{
+  border: 100px rgb(92, 158, 57) solid;
+  width: 80%;
+}
+
+.taille{
+  width: 100%;
+  margin: 0%;
+}
+
+.one{
+  font-size: 50px;
+  background-color: rgb(92, 158, 57);
+  color: rgb(137, 97, 43);
+    
+}
+
+
+.box1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.3vw;
+}
+
+
+.footer ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 20%;
+    
+}

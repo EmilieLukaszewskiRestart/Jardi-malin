@@ -51,7 +51,7 @@ p{
   
 }
 
-@media (max-width: 380px){
+@media (max-width: 460px){
 .titleon{
   top: 3%;
   bottom: 15%;
@@ -80,7 +80,7 @@ margin-top: 0.5%;
 
 
 
-@media (max-width:380px) {
+@media (max-width:460px) {
 .txton{
   padding-top: 0%;
   color:rgb(13, 128, 0);
@@ -116,7 +116,7 @@ background-color:rgb(207, 223, 169);
   background: #2ac253;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 460px) {
   .navigation {
     flex-flow: column wrap;
     padding: 0;
@@ -148,7 +148,7 @@ background-color:rgb(207, 223, 169);
 }
 
 
-@media (max-width: 380px){
+@media (max-width: 460px){
 .box2{
   gap: 15px;
 }
@@ -184,7 +184,7 @@ color: rgb(92, 158, 57);
 }
 
 
-@media (max-width: 380px) {
+@media (max-width: 460px) {
   .one{
   font-size: 4vw;
   color:darkgreen;
@@ -197,7 +197,7 @@ color: rgb(92, 158, 57);
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 460px) {
 .box2 div{
   border: 15px;
   width: 70%;
@@ -212,7 +212,7 @@ font-size: 1.5vw;
 animation: slideright 5s;
 }
 
-@media (max-width: 380px){
+@media (max-width: 460px){
 
 .box1{
   font-size: 4vw;
@@ -229,7 +229,7 @@ animation: slideright 5s;
   
 }
 
-@media (max-width: 380px){
+@media (max-width: 460px){
 .footer ul li{
   display:inline-flex;
   margin-left: 3vw;

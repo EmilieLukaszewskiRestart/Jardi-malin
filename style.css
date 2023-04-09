@@ -248,5 +248,77 @@ animation: slideright 5s;
   }
 }
 
+#game-container {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  margin:center;
+  background: rgb(207, 223, 169);
+  margin-bottom: 5%;
+}
+
+#game-container h1{
+  color: #113f04;
+  font-size: 1.5em;
+  padding: 5%;
+}
+
+#game-container h2{
+  color: #113f04;
+  font-size: 1.25em;
+  padding: 5%;
+}
 
 
+#question {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 5%;
+}
+
+#answer {
+  margin: 10px;
+  padding: 5px;
+}
+
+#submit {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#new-question {
+  background-color: #113f04;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.selected {
+  color:#113f04;
+  border-radius: 10em;
+  background-color: #4CAF50;
+
+}
